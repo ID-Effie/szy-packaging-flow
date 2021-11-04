@@ -1,0 +1,35 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "description": "ststic web app workflow",
+  "keywords": [
+    "my-project",
+    "zce"
+  ],
+  "repository": "szy/my-project",
+  "license": "MIT",
+  "author": "ID-Effie <sun_zhaoyang0029@163.com> (https://github.com/ID-Effie/szy-packaging-flow.git)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
